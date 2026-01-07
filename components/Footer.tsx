@@ -18,13 +18,12 @@ export default function Footer() {
             <FaEnvelope className="contact-icon" />
             <a href="mailto:info@brightfiber.co">info@brightfiber.co</a>
           </div>
-
-          <div className="contact-inline">
+          {/* <div className="contact-inline">
             <FaGlobe className="contact-icon" />
             <a href="https://www.brightfiber.co" target="_blank" rel="noreferrer">
               www.brightfiber.co
             </a>
-          </div>
+          </div> */}
           <div className="contact-inline">
             <FaLinkedin className="contact-icon" />
             <a href="https://www.linkedin.com/company/bright-fiber/" target="_blank" rel="noreferrer">
