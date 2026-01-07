@@ -26,7 +26,7 @@ export default function ServicesCarousel() {
       {
         title: "Engineering Services (MTO Preparation)",
         desc: "Accurate MTOs, BOQs, and documentation for telecom projects.",
-        image: "/services/engineering.PNG",
+        image: "/services/engineering.png",
         icon: <FaDraftingCompass />,
       },
       {
