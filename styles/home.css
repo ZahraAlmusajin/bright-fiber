@@ -477,6 +477,7 @@ body {
   scroll-snap-type: x mandatory;
 }
 
+
 /* responsive */
 @media (max-width: 900px) {
   .service-card-v2 {
