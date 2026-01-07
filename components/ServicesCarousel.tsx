@@ -64,7 +64,7 @@ export default function ServicesCarousel() {
     const firstCard = el.querySelector<HTMLElement>(".service-card-v2");
     if (!firstCard) return;
 
-    const gap = 16; // must match CSS gap
+    const gap = 16;
     const step = firstCard.offsetWidth + gap;
 
     el.scrollBy({
@@ -82,7 +82,6 @@ export default function ServicesCarousel() {
     autoScrollRef.current = setInterval(() => {
       const maxScrollLeft = el.scrollWidth - el.clientWidth;
 
-      // loop back to start when reaching the end
       if (el.scrollLeft >= maxScrollLeft - 5) {
         el.scrollTo({ left: 0, behavior: "smooth" });
       } else {
@@ -101,7 +100,6 @@ export default function ServicesCarousel() {
   useEffect(() => {
     startAutoScroll();
     return () => pauseAutoScroll();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

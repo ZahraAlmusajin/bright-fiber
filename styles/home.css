@@ -112,7 +112,7 @@ body {
 
 .about-container {/*used*/
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 3 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -208,7 +208,7 @@ body {
 
 .vv-container { /*used*/
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 3 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
@@ -391,10 +391,7 @@ body {
   background: #fff;
   overflow: hidden;
 
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
-  border: 1px solid rgba(0, 0, 0, 0.06);
-
-  min-height: 320px;
+  min-height: auto;
 }
 
 .service-photo { /*used*/
