@@ -67,7 +67,7 @@ body {
 
 .services-carousel {
   width: min(1100px, calc(100% - 120px));
-  overflow: hidden;
+  overflow-x: auto;
 }
 
 .services-overlap {
@@ -489,7 +489,7 @@ body {
 
 @media (max-width: 768px) {
   .service-card-v2 {
-    flex: 0 0 calc((100% - 16px) / 2);
+    flex: 0 0 calc((50% - 8px) / 2);
   }
 }
 
