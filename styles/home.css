@@ -107,14 +107,12 @@ body {
 }
 
 .about {
-  padding: 50px 0;
-  padding-top: 270px;
+  padding: 30px 0;
 }
 
 .about-container {/*used*/
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 16px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -153,6 +151,7 @@ body {
 
 .cta { /*used*/
   padding: 10px 0;
+  padding-top: 250Px;
 }
 
 .cta-container { /*used*/
@@ -204,13 +203,12 @@ body {
 }
 
 .vv { /*used*/
-  padding: 70px 0 90px;
+  padding: 0 0 90px;
 }
 
 .vv-container { /*used*/
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 16px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
@@ -220,7 +218,7 @@ body {
   border: 1px solid #fff;
   background: #fff;
   border-radius: 14px;
-  padding: 28px;
+  padding: 30px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
   opacity: 0.85;
 }

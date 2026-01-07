@@ -23,6 +23,23 @@ export default function Page() {
         <ServicesCarousel />
       </section>
 </section>
+
+      {/* CTA BANNER (LIKE YOUR IMAGE) */}
+      <section className="cta">
+        <div className="cta-container">
+          <div className="cta-left">
+
+            <div className="cta-text">
+              <p className="cta-title">TURN YOUR REQUIREMENTS INTO ENGINEERED EXECUTION</p>
+            </div>
+          </div>
+
+          {/* Scroll to contact section */}
+          <a className="cta-btn" href="#contact">
+            CONTACT US
+          </a>
+        </div>
+      </section>
       {/* ABOUT US */}
       <section className="about">
         <div className="about-container">
@@ -50,22 +67,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* CTA BANNER (LIKE YOUR IMAGE) */}
-      <section className="cta">
-        <div className="cta-container">
-          <div className="cta-left">
-
-            <div className="cta-text">
-              <p className="cta-title">TURN YOUR REQUIREMENTS INTO ENGINEERED EXECUTION</p>
-            </div>
-          </div>
-
-          {/* Scroll to contact section */}
-          <a className="cta-btn" href="#contact">
-            CONTACT US
-          </a>
-        </div>
-      </section>
 
       {/* VISION + VALUES */}
       <section className="vv">
