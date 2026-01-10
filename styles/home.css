@@ -8,6 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px; /* mobile edge spacing */
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
    background: #F4EDEA;
@@ -20,6 +26,8 @@ body {
   background-size: cover;
   background-position: center;
   z-index: 1;
+  padding-bottom: 202px;
+  margin-bottom: 180px;
 }
 
 .hero-overlay {
@@ -73,8 +81,7 @@ body {
 .services-overlap {
   position: relative;
   z-index: 3;
-  margin-top: -140px;
-  padding: 0 24px 24px;
+  align-items: stretch;
 }
 
 .services-track {
@@ -111,13 +118,12 @@ body {
 }
 
 .about-container {/*used*/
-  max-width: 1100px;
-  margin: 3 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
 }
+
 
 .about-image img {/*used*/
   width: 100%;
@@ -150,23 +156,23 @@ body {
 }
 
 .cta { /*used*/
-  padding: 10px 0;
-  padding-top: 250Px;
+  max-width: 1100px;
+  margin: 15px auto;
+  gap: 16px;
+  padding: 10px 20px;
 }
 
 .cta-container { /*used*/
   max-width: 1100px;
   margin: 48px auto;
-  padding: 2 16px;
   background: linear-gradient(90deg, #0A014F, #3470C6 );
   border-radius: 10px;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 18px 20px;
-  border-left: 6px solid #721817; /* red line like the template */
+  border-left: 6px solid #721817;
 }
 .cta-btn:hover { /*used*/
   transform: translateY(-1px);
@@ -206,13 +212,12 @@ body {
   padding: 0 0 90px;
 }
 
-.vv-container { /*used*/
-  max-width: 1100px;
-  margin: 3 auto;
+.vv-container {/*used*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
 }
+
 
 .vv-card { /*used*/
   border: 1px solid #fff;
@@ -484,6 +489,12 @@ body {
 }
 
 @media (max-width: 600px) {
+  .service-card-v2 {
+    flex: 0 0 calc((100% - 16px) / 2);
+  }
+}
+
+@media (max-width: 420px) {
   .service-card-v2 {
     flex: 0 0 100%;
   }
