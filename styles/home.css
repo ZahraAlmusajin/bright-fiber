@@ -502,6 +502,6 @@ body {
 
 @media (max-width: 420px) {
   .service-card-v2 {
-    flex: 0 0 calc((100% - 16px) / 2);
+    flex: 0 0 calc((100% - 10px) / 2);
   }
 }
