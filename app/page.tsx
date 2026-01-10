@@ -17,7 +17,7 @@ export default function Page() {
       <section className="services-overlap">
         <div className="container">
         <p className="services-subtitle">
-          Empowering faster and more reliable <br/> communication networks
+          Empowering faster and more reliable communication networks
         </p>
         {/* SERVICES FIRST */}
         <ServicesCarousel />
