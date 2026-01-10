@@ -9,24 +9,25 @@ export default function Page() {
 
       <section className="hero">
         <div className="hero-overlay" />
-
-        <div className="hero-content">
+        <div className="hero-content container">
           <h1>
             ADVANCED TELECOM SERVICES AND SOLUTIONS
           </h1>         
         </div>
       <section className="services-overlap">
+        <div className="container">
         <p className="services-subtitle">
           Empowering faster and more reliable <br/> communication networks
         </p>
         {/* SERVICES FIRST */}
         <ServicesCarousel />
+        </div>
       </section>
 </section>
 
       {/* CTA BANNER (LIKE YOUR IMAGE) */}
       <section className="cta">
-        <div className="cta-container">
+        <div className="cta-container container">
           <div className="cta-left">
 
             <div className="cta-text">
@@ -42,7 +43,7 @@ export default function Page() {
       </section>
       {/* ABOUT US */}
       <section className="about">
-        <div className="about-container">
+        <div className="about-container container">
           <div className="about-image">
             <img
               src="/splicer.jpg"
@@ -70,7 +71,7 @@ export default function Page() {
 
       {/* VISION + VALUES */}
       <section className="vv">
-        <div className="vv-container">
+        <div className="vv-container container">
           <div className="vv-card">
             <h3>VISION</h3>
             <p>
